@@ -1,3 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss';
 
-@import "tailwindcss";
+@theme {
+  --color-brand-champagne: #f7dca1;
+  --color-brand-navy: #284868;
+  --color-brand-white: #ffffff;
+  --color-brand-pewter: #9ca1a3;
+  --color-brand-green: #02a95c;
+  --color-brand-green-dark: #00894a;
+
+  /* Semantic names */
+  --color-primary: #02a95c;
+  --color-primary-dark: #00894a;
+  --color-secondary: #f7dca1;
+  --color-accent: #02a95c;
+  --color-neutral: #9ca1a3;
+  --color-surface: #ffffff;
+}
+
+/* Global Styles */
+body {
+  @apply bg-brand-white text-gray-900 antialiased;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold text-brand-navy;
+}
+
+/* Custom Scrollbar for sleek look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-pewter/50 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-brand-navy/50;
+}

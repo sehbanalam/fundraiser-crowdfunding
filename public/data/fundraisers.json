@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "title": "Help Sarah Beat Leukemia",
+    "category": "Medical",
+    "goal": 50000,
+    "raised": 32450,
+    "organizer": "Jane Doe",
+    "location": "New York, NY",
+    "image": "https://scx2.b-cdn.net/gfx/news/hires/2023/cancer-treatment.jpg",
+    "description": "Sarah was diagnosed with Acute Lymphoblastic Leukemia on January 15th. She is a fighter, but the medical bills are piling up. We need your help to cover her treatment costs and support her family during this difficult time. Every donation counts.",
+    "donors": 120,
+    "created_at": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Rebuild the Community Center",
+    "category": "Community",
+    "goal": 100000,
+    "raised": 15000,
+    "organizer": "Local Council",
+    "location": "Austin, TX",
+    "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&q=80&w=800",
+    "description": "Our beloved community center was damaged in the recent storm. We want to rebuild it better than before, with new facilities for youth programs and senior activities.",
+    "donors": 45,
+    "created_at": "2023-10-05T09:30:00Z"
+  },
+  {
+    "id": "3",
+    "title": "Support for the Smith Family Fire Recovery",
+    "category": "Emergency",
+    "goal": 25000,
+    "raised": 28000,
+    "organizer": "Mike Smith",
+    "location": "Chicago, IL",
+    "image": "https://cdn.theatlantic.com/media/img/photo/2017/05/after-the-fire-recovery-in-fort-mcm/m01_00001-1/original.jpg",
+    "description": "The Smith family lost their home and all possessions in a devastating fire. Thankfully everyone is safe, but they need to restart their lives from scratch.",
+    "donors": 300,
+    "created_at": "2023-10-10T15:45:00Z"
+  },
+  {
+    "id": "4",
+    "title": "Education Fund for Underprivileged Kids",
+    "category": "Education",
+    "goal": 10000,
+    "raised": 4500,
+    "organizer": "Bright Future Foundation",
+    "location": "Los Angeles, CA",
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&q=80&w=800",
+    "description": "We provide scholarships, books, and school supplies to children in low-income neighborhoods to ensure they have an equal opportunity to succeed.",
+    "donors": 85,
+    "created_at": "2023-10-12T10:00:00Z"
+  },
+  {
+    "id": "5",
+    "title": "Save the Local Animal Shelter",
+    "category": "Animals",
+    "goal": 15000,
+    "raised": 12000,
+    "organizer": "Paws and Claws",
+    "location": "Seattle, WA",
+    "image": "https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&q=80&w=800",
+    "description": "Our shelter is at capacity and running out of funds for food and veterinary care. Help us keep our doors open and find loving homes for these animals.",
+    "donors": 210,
+    "created_at": "2023-10-15T14:20:00Z"
+  }
+]
