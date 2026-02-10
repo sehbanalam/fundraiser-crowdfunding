@@ -10,7 +10,7 @@ import { FundraiserCardComponent } from '../../shared/components/fundraiser-card
   imports: [RouterLink, FundraiserCardComponent, AsyncPipe],
   template: `
     <!-- Modern Hero Section -->
-    <section class="relative pt-24 pb-32 overflow-hidden bg-white">
+    <section class="relative pt-16 pb-20 overflow-hidden bg-white">
       <!-- Background Decorations -->
       <div
         class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-brand-green/5 rounded-full blur-3xl"
@@ -36,13 +36,13 @@ import { FundraiserCardComponent } from '../../shared/components/fundraiser-card
             </div>
 
             <h1
-              class="text-6xl sm:text-7xl font-black text-gray-900 mb-6 leading-[1.1] tracking-tighter"
+              class="text-5xl sm:text-6xl font-black text-gray-900 mb-5 leading-[1.1] tracking-tighter"
             >
               Fundraise for <br /><span class="text-brand-green italic">anything</span> that
               matters.
             </h1>
 
-            <p class="text-xl text-gray-500 mb-10 leading-relaxed max-w-lg">
+            <p class="text-xl text-gray-500 mb-8 leading-relaxed max-w-lg">
               The ultimate platform for personal and community fundraising. Reach your goal faster
               with our zero platform fee model.
             </p>
@@ -62,7 +62,7 @@ import { FundraiserCardComponent } from '../../shared/components/fundraiser-card
               </a>
             </div>
 
-            <div class="mt-12 flex items-center gap-6">
+            <div class="mt-10 flex items-center gap-6">
               <div class="flex -space-x-3">
                 <img
                   src="https://i.pravatar.cc/100?u=1"
@@ -93,7 +93,7 @@ import { FundraiserCardComponent } from '../../shared/components/fundraiser-card
             >
               <img
                 src="https://www.developmentguild.com/assets/Core-Functions-of-Campaign-Team-Banner-Options_2000x1000_acf_cropped.png.webp"
-                class="w-full h-[500px] object-cover"
+                class="w-full h-[400px] object-cover"
                 alt="Crowdfunding success"
               />
               <div class="absolute inset-0 bg-gradient-to-t from-gray-900/40 to-transparent"></div>
@@ -129,7 +129,7 @@ import { FundraiserCardComponent } from '../../shared/components/fundraiser-card
     </section>
 
     <!-- Modern "How it Works" - High-End Card Layout -->
-    <section class="py-32 bg-gray-50 overflow-hidden relative">
+    <section class="py-20 bg-gray-50 overflow-hidden relative">
       <!-- Decorative background blur -->
       <div
         class="absolute top-1/4 -right-20 w-96 h-96 bg-brand-green/5 rounded-full blur-3xl"
@@ -139,9 +139,9 @@ import { FundraiserCardComponent } from '../../shared/components/fundraiser-card
       ></div>
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="flex flex-col lg:flex-row items-end justify-between mb-24 gap-8">
+        <div class="flex flex-col lg:flex-row items-end justify-between mb-12 gap-8">
           <div class="max-w-2xl text-left">
-            <h2 class="text-5xl font-black text-gray-900 mb-6 leading-tight">
+            <h2 class="text-4xl font-black text-gray-900 mb-4 leading-tight">
               Fundraising on RaiseNow <br />is
               <span class="text-brand-green">simple and fast</span>
             </h2>
@@ -312,10 +312,10 @@ import { FundraiserCardComponent } from '../../shared/components/fundraiser-card
     </section>
 
     <!-- Featured Fundraisers -->
-    <section class="py-16 bg-gray-50 border-y border-gray-100">
+    <section class="py-12 bg-gray-50 border-y border-gray-100">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-12">
-          <h2 class="text-3xl font-bold text-gray-900 mb-4">Featured Fundraisers</h2>
+        <div class="text-center mb-8">
+          <h2 class="text-3xl font-bold text-gray-900 mb-3">Featured Fundraisers</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">
             Discover stories that matter and people who need your support right now.
           </p>
@@ -331,7 +331,7 @@ import { FundraiserCardComponent } from '../../shared/components/fundraiser-card
           }
         </div>
 
-        <div class="mt-12 text-center">
+        <div class="mt-8 text-center">
           <a
             routerLink="/search"
             class="text-brand-green font-semibold hover:text-brand-green-dark flex items-center justify-center"
@@ -351,9 +351,9 @@ import { FundraiserCardComponent } from '../../shared/components/fundraiser-card
     </section>
 
     <!-- Categories / Trust / Divider -->
-    <section class="py-16 bg-white border-b border-gray-200">
+    <section class="py-12 bg-white border-b border-gray-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-2xl font-bold text-gray-900 mb-8 text-center">Browse by Category</h2>
+        <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">Browse by Category</h2>
         <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
           <a
             href="#"
@@ -414,7 +414,7 @@ import { FundraiserCardComponent } from '../../shared/components/fundraiser-card
     </section>
 
     <!-- Success Stories Section -->
-    <section class="py-24 bg-brand-green text-white overflow-hidden relative">
+    <section class="py-16 bg-brand-green text-white overflow-hidden relative">
       <div class="absolute inset-0 z-0 opacity-10 pointer-events-none">
         <div
           class="absolute top-0 left-0 w-64 h-64 bg-white rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"
@@ -425,7 +425,7 @@ import { FundraiserCardComponent } from '../../shared/components/fundraiser-card
       </div>
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="flex flex-col md:flex-row items-center gap-16">
+        <div class="flex flex-col md:flex-row items-center gap-10">
           <div class="md:w-1/2 w-full">
             <div class="relative group">
               <div
@@ -444,7 +444,7 @@ import { FundraiserCardComponent } from '../../shared/components/fundraiser-card
             >
               Impact Story
             </div>
-            <h2 class="text-4xl font-extrabold mb-6 leading-tight">Real stories, real results</h2>
+            <h2 class="text-3xl font-extrabold mb-4 leading-tight">Real stories, real results</h2>
             <div class="relative">
               <span class="absolute -top-10 -left-6 text-9xl text-white/10 font-serif">"</span>
               <p
@@ -473,9 +473,9 @@ import { FundraiserCardComponent } from '../../shared/components/fundraiser-card
     </section>
 
     <!-- Modern Guarantee / Trust Section -->
-    <section class="py-24 bg-white border-t border-gray-100 overflow-hidden relative">
+    <section class="py-16 bg-white border-t border-gray-100 overflow-hidden relative">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="flex flex-col lg:flex-row items-center gap-16">
+        <div class="flex flex-col lg:flex-row items-center gap-10">
           <div class="lg:w-1/2">
             <div
               class="inline-flex items-center px-4 py-2 rounded-full bg-brand-green/10 text-brand-green font-bold text-sm mb-6 uppercase tracking-wider"
@@ -489,10 +489,10 @@ import { FundraiserCardComponent } from '../../shared/components/fundraiser-card
               </svg>
               Standard of Trust
             </div>
-            <h2 class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-8 leading-tight">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-6 leading-tight">
               The <span class="text-brand-green">RaiseNow</span> Guarantee
             </h2>
-            <p class="text-xl text-gray-600 mb-10 leading-relaxed">
+            <p class="text-lg text-gray-600 mb-8 leading-relaxed">
               We provide the first and only guarantee for social fundraising. We've got your
               back—from donating to receiving funds.
             </p>

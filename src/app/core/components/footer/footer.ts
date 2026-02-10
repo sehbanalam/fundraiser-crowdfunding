@@ -4,12 +4,12 @@ import { Component } from '@angular/core';
   selector: 'app-footer',
   standalone: true,
   template: `
-    <footer class="bg-gray-50 text-gray-700 py-16 border-t border-gray-200">
+    <footer class="bg-gray-50 text-gray-700 py-10 border-t border-gray-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-12 pb-12">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-8">
           <!-- Company Info -->
           <div class="md:col-span-4">
-            <div class="flex items-center gap-2 mb-6">
+            <div class="flex items-center gap-2 mb-4">
               <div
                 class="bg-brand-green p-1.5 rounded-lg text-white shadow-lg shadow-brand-green/20"
               >
@@ -27,7 +27,7 @@ import { Component } from '@angular/core';
                 ><span class="text-brand-pewter uppercase italic tracking-tighter">Now</span>
               </div>
             </div>
-            <p class="text-gray-500 leading-relaxed mb-8 max-w-sm">
+            <p class="text-gray-500 leading-relaxed mb-6 max-w-sm">
               Empowering individuals and communities to reach their goals through transparent,
               secure, and impactful social fundraising.
             </p>
@@ -67,10 +67,10 @@ import { Component } from '@angular/core';
 
           <!-- Links Sections -->
           <div class="md:col-span-2">
-            <h3 class="text-sm font-black uppercase tracking-widest text-gray-900 mb-6">
+            <h3 class="text-sm font-black uppercase tracking-widest text-gray-900 mb-4">
               Fundraise
             </h3>
-            <ul class="space-y-4">
+            <ul class="space-y-2">
               <li>
                 <a
                   href="#"
@@ -103,8 +103,8 @@ import { Component } from '@angular/core';
           </div>
 
           <div class="md:col-span-2">
-            <h3 class="text-sm font-black uppercase tracking-widest text-gray-900 mb-6">Company</h3>
-            <ul class="space-y-4">
+            <h3 class="text-sm font-black uppercase tracking-widest text-gray-900 mb-4">Company</h3>
+            <ul class="space-y-2">
               <li>
                 <a
                   href="#"
@@ -137,8 +137,8 @@ import { Component } from '@angular/core';
           </div>
 
           <div class="md:col-span-2">
-            <h3 class="text-sm font-black uppercase tracking-widest text-gray-900 mb-6">Support</h3>
-            <ul class="space-y-4">
+            <h3 class="text-sm font-black uppercase tracking-widest text-gray-900 mb-4">Support</h3>
+            <ul class="space-y-2">
               <li>
                 <a
                   href="#"
@@ -171,8 +171,8 @@ import { Component } from '@angular/core';
           </div>
 
           <div class="md:col-span-2">
-            <h3 class="text-sm font-black uppercase tracking-widest text-gray-900 mb-6">Legal</h3>
-            <ul class="space-y-4">
+            <h3 class="text-sm font-black uppercase tracking-widest text-gray-900 mb-4">Legal</h3>
+            <ul class="space-y-2">
               <li>
                 <a
                   href="#"
@@ -198,7 +198,7 @@ import { Component } from '@angular/core';
           </div>
         </div>
         <div
-          class="mt-12 border-t border-gray-100 pt-8 text-sm text-center text-gray-400 font-medium"
+          class="mt-8 border-t border-gray-100 pt-8 text-sm text-center text-gray-400 font-medium"
         >
           &copy; 2026 RaiseNow. Portfolio purpose only. Not a real service.
         </div>
